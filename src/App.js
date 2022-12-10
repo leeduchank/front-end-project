@@ -1,9 +1,12 @@
 import React, { useState } from "react"
+import "./App.css"
 import Header from './common/header/Header'
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";import './App.css';
 import Pages from './pages/Pages'
 import Data from "./components/Data"
 import Sdata from "./components/shops/Sdata"
+import Cart from "./common/Cart/Cart"
+
 
 function App() {
   const { productItems } = Data
@@ -57,7 +60,9 @@ function App() {
     <Routes>
       <Route path="/" element={< Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} />}>
       </Route>
-
+      <Route path='/cart' element={<Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
+}>
+          </Route>
     </Routes>
  </Router>
  </>
