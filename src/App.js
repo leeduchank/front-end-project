@@ -6,6 +6,7 @@ import Pages from './pages/Pages'
 import Data from "./components/Data"
 import Sdata from "./components/shops/Sdata"
 import Cart from "./common/Cart/Cart"
+import Footer from "./common/footer/Footer";
 
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
 }>
           </Route>
     </Routes>
+    <Footer />
  </Router>
  </>
   );
