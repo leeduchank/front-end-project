@@ -25,7 +25,7 @@ const Navbar = ()  => {
                         <Link to='/user'>user account</Link>
                     </li>
                     <li>
-                        <Link to='/vendor'>vencor account</Link>
+                        <Link to='/Vendor'>vendor account</Link>
                     </li>
                     <li>
                         <Link to='/track'>track my order</Link>

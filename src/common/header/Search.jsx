@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/images/logo.svg"
+import logo from "../../components/assets/images/logo.svg"
 import {Link} from "react-router-dom"
 const Search = ()  => {
     window.addEventListener("scroll", function () {
@@ -19,7 +19,7 @@ const Search = ()  => {
                         <span>All Category</span>
                     </div>
                     <div className="icon f_flex width">
-                        <i className="fa fa-user icon_circle"></i>
+                        <i className="fa fa-user icon-circle"></i>
                         <div className="cart">
                             <Link to="/cart">
                                 <i className="fa fa-shopping-bag icon-circle"></i>

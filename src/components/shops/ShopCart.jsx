@@ -81,7 +81,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
                      if hami le button ma click garryo bahne 
                     */}
                   <button onClick={() => addToCart(shopItems)}>
-                    <i className='fa fa-plus'></i>
+                    <i className='fa fa-plus '></i>
                   </button>
                 </div>
               </div>

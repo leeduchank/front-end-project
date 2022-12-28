@@ -9,7 +9,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
   return (
     <>
       <section className='cart-items'>
-        <div className='container d_flex'>
+        <div className='container d_flex' >
           {/* if hamro cart ma kunai pani item xaina bhane no diplay */}
 
           <div className='cart-details'>
@@ -42,10 +42,10 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
                     */}
                     <div className='cartControl d_flex'>
                       <button className='incCart' onClick={() => addToCart(item)}>
-                        <i className='fa-solid fa-plus but'></i>
+                        <i className='fa-solid fa-plus '></i>
                       </button>
                       <button className='desCart' onClick={() => decreaseQty(item)}>
-                        <i className='fa-solid fa-minus but'></i>
+                        <i className='fa-solid fa-minus '></i>
                       </button>
                     </div>
                   </div>
@@ -63,7 +63,18 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
               <h3>${totalPrice}.00</h3>
             </div>
           </div>
+              
         </div>
+        <div className="cart-payment">
+        <i className="fa-solid fa-credit-card"></i>
+
+<button className='payCart c_flex' onClick={() => alert("Your order has been created")}>       
+   <h4>BUY NOW</h4>
+</button>
+
+
+
+</div>
       </section>
     </>
   )

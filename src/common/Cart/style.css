@@ -67,6 +67,7 @@
   .desCart {
     background: #f6f9fc;
   }
+  
   .cart-total h4 {
     font-size: 15px;
     font-weight: 400;
@@ -77,6 +78,7 @@
     color: #e94560;
   }
   .cart-total h2 {
+   
     font-size: 18px;
     margin-bottom: 20px;
     border-bottom: 1px solid rgb(3 0 71 / 9%);
@@ -89,7 +91,38 @@
     margin-top: 30px;
     height: 130px;
   }
+.cart-payment {
+ 
+  margin-top: 5px;
+  margin-left: 68%;
+}
 
+.cart-payment h4{
+  font-size: 10px;
+  margin-bottom: 20px;
+
+}
+
+.cart-payment button{
+ 
+  background-color: #fff;
+   /* text styles */
+   font-size: 15px;
+   line-height: 24px;
+   color: #fff;
+   text-decoration: none;
+   text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  /* box styles */
+  display: inline-block;
+  height: 25px;
+  padding: 0 10px;
+  border: 1px solid rgb(3 0 71 / 9%);
+  color: #e94560; 
+   border-radius: 21px;
+  margin-left: 10px;
+
+}
+ 
   button:hover{
     cursor: pointer;
     background-color: #e94560;

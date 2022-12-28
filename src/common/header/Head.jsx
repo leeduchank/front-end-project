@@ -6,9 +6,9 @@ const Head = ()  => {
         <section className='head'>
             <div className='container d_flex'>
                 <div className='lef row'>
-                    <i className='bi bi-phone'></i>
+                    <i className='fa fa-phone'></i>
                     <label>+0852411757</label>
-                    <i className='bi bi-envelope'></i>
+                    <i className='fa fa-envelope'></i>
                     <label >leduchanh070700@gmail.com</label>
                 </div>
                 <div className='right row RText'>
